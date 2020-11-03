@@ -16,9 +16,13 @@ public class Mathematics{
 
 		return num1 + num2;
 	}
-
+     
 	static int subtraction(){
 		// function to perform subtraction of two numbers - Arya
+		Scanner sc = new Scanner(System.in);
+		int num1 = sc.nextInt();
+		int num2 = sc.nextInt();
+		return num1-num2;
 	}
 
 	static int multiplication(){
