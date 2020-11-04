@@ -31,6 +31,11 @@ public class Mathematics{
 
 	static int division(){
 		// function to perform division of two numbers - Omkar
+		Scanner sc = new Scanner(System.in);
+		int num1 = sc.nextInt();
+		int num2 = sc.nextInt();
+		return num1/num2;
+
 	}
 
 	static void displayResult(int choice, HashMap<Integer, String> operations, int result){
