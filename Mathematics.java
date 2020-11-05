@@ -27,6 +27,10 @@ public class Mathematics{
 
 	static int multiplication(){
 		// function to perform multiplication of two numbers - Udita
+		Scanner sc = new Scanner(System.in);
+		int num1 = sc.nextInt();
+		int num2 = sc.nextInt();
+		return num1*num2;	
 	}
 
 	static int division(){
